@@ -1,0 +1,13 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input:-internal-autofill-selected {
+    background-color: 'white!important';
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
