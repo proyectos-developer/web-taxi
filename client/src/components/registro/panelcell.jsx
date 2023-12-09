@@ -9,6 +9,7 @@ import box_check from '../../assets/iconos/box_check.png'
 import { useNavigate } from 'react-router-dom'
 import {begindata} from '../../redux/slice/begindata'
 import { beginConstants } from '../../uri/begin-constants'
+import { set_user_authenticated } from '../../redux/actions/dataactions'
 
 export default function RegistroPanelCell({proporcional}) {
 
@@ -39,16 +40,22 @@ export default function RegistroPanelCell({proporcional}) {
     useEffect(() => {
         if (register_viajero && register_viajero.success === true && register_viajero.user){
             window.localStorage.setItem('session_id', register_viajero.user.session_id)
+            window.localStorage.setItem('usuario', register_viajero.user.user.usuario)
+            window.localStorage.setItem ('tipo_usuario', 'viajero')
+            dispatch(set_user_authenticated(true))
             dispatch (begindata(beginConstants({}, true, 0).register_viajero))
-            navigate ('/')
+            navigate (`/pasajero/${register_viajero.user.user.usuario}`)
         }
     }, [register_viajero])
 
     useEffect(() => {
         if (register_conductor && register_conductor.success === true && register_conductor.user){
             window.localStorage.setItem('session_id', register_conductor.user.session_id)
+            window.localStorage.setItem('usuario', register_conductor.user.user.usuario)
+            window.localStorage.setItem ('tipo_usuario', 'conductor')
+            dispatch(set_user_authenticated(true))
             dispatch (begindata(beginConstants({}, true, 0).register_conductor))
-            navigate ('/')
+            navigate (`/conductor/${register_conductor.user.user.usuario}`)
         }
     }, [register_conductor])
     

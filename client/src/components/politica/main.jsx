@@ -15,7 +15,7 @@ export default function PoliticaPrivacidad({proporcional}) {
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                         fontFamily: 'DM Serif Display, serif'}}>
-                Las presentes Condiciones de uso (“Condiciones”) regulan el acceso o uso que usted haga, como persona, desde cualquier país del mundo (excluidos los Estados Unidos y sus territorios y posesiones así como China Continental) de aplicaciones, páginas web, contenido, productos y servicios (los “Servicios”) puestos a disposición por Taxi 24/7 hrs B.V., una sociedad de responsabilidad limitada constituida en los Países Bajos, con domicilio social en Burgerweeshuispad 301, 1076 HR Amsterdam, Países Bajos, inscrita en la Cámara de Comercio de Ámsterdam con el número 56317441 (“Uber”).
+                Las presentes Condiciones de uso (“Condiciones”) regulan el acceso o uso que usted haga, como persona, desde cualquier provincia del Perú de aplicaciones, páginas web, contenido, productos y servicios (los “Servicios”) puestos a disposición por Taxi 24/7 hrs B.V., una sociedad de responsabilidad limitada constituida en el Perú.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -43,7 +43,7 @@ export default function PoliticaPrivacidad({proporcional}) {
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
-                Los Servicios constituyen una plataforma de tecnología que permite a los usuarios de aplicaciones móviles de Taxi 24/7 hrs o páginas web proporcionadas como parte de los Servicios (cada una, una “Aplicación”) organizar y planear el transporte y/o servicios de logística con terceros proveedores independientes de dichos servicios, incluidos terceros transportistas independientes y terceros proveedores logísticos independientes, conforme a un acuerdo con Taxi 24/7 hrs o algunos afiliados de Taxi 24/7 hrs (“Terceros proveedores”), así como organizar y programar el acceso y uso de vehículos eléctricos ligeros, incluyendo, sin limitar: bicicletas, bicicletas eléctricas o asistidas por motor, monopatines, monopatines eléctricos y cualesquiera otros medios de transporte individual o de movilidad compartida. A no ser que Taxi 24/7 hrs lo acepte mediante un contrato separado por escrito con usted, los Servicios se ponen a disposición solo para su uso personal, no comercial. USTED RECONOCE QUE UBER NO PRESTA SERVICIOS DE TRANSPORTE O DE LOGÍSTICA O FUNCIONA COMO UNA EMPRESA DE TRANSPORTES Y QUE DICHOS SERVICIOS DE TRANSPORTE O LOGÍSTICA SE PRESTAN POR TERCEROS CONTRATISTAS INDEPENDIENTES, QUE NO ESTÁN EMPLEADOS POR UBER NI POR NINGUNA DE SUS AFILIADOS.
+                Los Servicios constituyen una plataforma de tecnología que permite a los usuarios de aplicaciones móviles de Taxi 24/7 hrs o páginas web proporcionadas como parte de los Servicios (cada una, una “Aplicación”) organizar y planear el transporte y/o servicios de logística con terceros proveedores independientes de dichos servicios, incluidos terceros transportistas independientes y terceros proveedores logísticos independientes, conforme a un acuerdo con Taxi 24/7 hrs o algunos afiliados de Taxi 24/7 hrs (“Terceros proveedores”), así como organizar y programar el acceso y uso de vehículos eléctricos ligeros, incluyendo, sin limitar: bicicletas, bicicletas eléctricas o asistidas por motor, monopatines, monopatines eléctricos y cualesquiera otros medios de transporte individual o de movilidad compartida. A no ser que Taxi 24/7 hrs lo acepte mediante un contrato separado por escrito con usted, los Servicios se ponen a disposición solo para su uso personal, no comercial. USTED RECONOCE QUE TAXI 24/7 NO PRESTA SERVICIOS DE TRANSPORTE O DE LOGÍSTICA O FUNCIONA COMO UNA EMPRESA DE TRANSPORTES Y QUE DICHOS SERVICIOS DE TRANSPORTE O LOGÍSTICA SE PRESTAN POR TERCEROS CONTRATISTAS INDEPENDIENTES, QUE NO ESTÁN EMPLEADOS POR TAXI 24/7 NI POR NINGUNA DE SUS AFILIADOS.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -64,10 +64,6 @@ export default function PoliticaPrivacidad({proporcional}) {
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
                 Prestación de los Servicios.
-            </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                Usted reconoce que parte de los Servicios podrán ponerse a disposición bajo varias marcas u opciones de pedidos de Taxi 24/7 hrs asociadas con el transporte o los servicios logísticos, incluidas de manera enunciativa, mas no limitativa, las marcas de pedidos de transporte y/o de vehículos eléctricos ligeros, actualmente denominadas “Uber”, “uberPOP”, “uberX”, “uberXL”, “UberBLACK”, “UberSUV”, “UberBERLINE”, “UberVAN”, “UberEXEC” y “UberLUX” y las marcas de pedidos de servicios logísticos actualmente denominadas “UberRUSH”, “UberFRESH”, “UberEATS”, “Uber Connect” y "Taxi 24/7 hrs Direct". Asimismo, usted reconoce que los Servicios podrán ponerse a disposición bajo dichas marcas u opciones de pedidos por o en relación con: (i) ciertas subsidiarias o afiliados de Taxi 24/7 hrs; o (ii) Terceros proveedores independientes, incluidos conductores de empresas de red de transportes, titulares del permiso de carta de transporte o titulares de permisos, autorizaciones o licencias de transporte similares.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -117,10 +113,6 @@ export default function PoliticaPrivacidad({proporcional}) {
                     fontFamily: 'DM Serif Display, serif'}}>
                 Mensajes de texto.
             </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                Al crear una Cuenta, usted acepta que los Servicios le puedan enviar mensajes de texto informativos (SMS) como parte de la actividad comercial normal de su uso de los Servicios. Usted podrá solicitar la no recepción de mensajes de texto informativos (SMS) de Taxi 24/7 hrs en cualquier momento en la siguiente dirección t.uber.com/suscripcion indicando que no desea recibir más dichos mensajes, junto con el número de teléfono del dispositivo móvil que recibe los mensajes. Usted reconoce que solicitar la no recepción de mensajes de texto informativos (SMS) podrá afectar al uso que usted haga de los Servicios.
-            </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
                 Códigos promocionales.
@@ -160,10 +152,6 @@ export default function PoliticaPrivacidad({proporcional}) {
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
-                Usted entiende que el uso de los Servicios puede derivar en cargos por los servicios o bienes que reciba de un Tercer proveedor, terceros independientes o por los servicios de intermediación u otros que reciba de Taxi 24/7 hrs o las subsidiarias o afiliados de Taxi 24/7 hrs en su jurisdicción o desde el extranjero, según corresponda (los “Cargos”). En caso de realizarse Cargos por cuenta del Tercero proveedor, Taxi 24/7 hrs, sus afiliadas o subsidiarias serán éstos (el Tercero proveedor, Taxi 24/7 hrs, sus subsidiarias o afiliados) quienes le trasladarán y cobrarán los impuestos aplicables en su jurisdicción o en el extranjero y que apliquen conforme a la Ley. Después que haya recibido los servicios u obtenido los bienes (anteriormente referidos) mediante el uso de los Servicios, Taxi 24/7 hrs, como agente de cobro limitado, facilitará el pago de los Cargos e impuestos aplicables en nombre del Tercero proveedor o de Taxi 24/7 hrs o las subsidiarias o afiliados de Taxi 24/7 hrs en su jurisdicción o en el extranjero, según corresponda. El pago de los Cargos e impuestos (cuando resulten aplicables) de dicha manera se considerará como el pago efectuado directamente por usted al Tercero proveedor, Taxi 24/7 hrs o las subsidiarias o afiliados de Taxi 24/7 hrs en su jurisdicción o en el extranjero, según corresponda. Los Cargos pagados por usted son definitivos y no reembolsables, a menos que Taxi 24/7 hrs determine lo contrario. Usted conserva el derecho de solicitar Cargos más bajos de un Tercero proveedor para los servicios o bienes recibidos por usted de dicho Tercero proveedor en el momento en que reciba dichos servicios o bienes. Taxi 24/7 hrs responderá en consecuencia a cualquier solicitud de un Tercero proveedor para modificar los Cargos por un servicio o bien en particular. Los cargos pueden incluir otras cuotas, peajes y/o recargos aplicables, incluyendo cuotas por solicitud, cuotas o cargos municipales, estatales o nacionales/federales, cargos por demoras, recargos aeroportuarios o tarifas de procesamiento por pagos fraccionados, entre otros que sean aplicables. Visite www.uber.com/cities para obtener más información sobre las tarifas estimadas de su viaje en su ubicación en particular.
-            </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
                 Taxi 24/7 hrs, se reserva el derecho de eliminar y/o modificar los Cargos para alguno o todos los servicios o bienes obtenidos a través del uso de los Servicios, a su solicitud. Además, usted reconoce y acepta que los Cargos aplicables en determinadas zonas geográficas podrán incrementar sustancialmente durante los periodos de alta demanda. Taxi 24/7 hrs usará los esfuerzos razonables para informarle de los Cargos que podrán aplicarse, siempre y cuando usted sea responsable de los Cargos incurridos en su Cuenta, independientemente de que usted conozca dichos Cargos o los importes de estos. Taxi 24/7 hrs directamente o a través de sus afiliadas o subsidiarias podrá, cuando lo considere oportuno, proporcionar a determinados usuarios ofertas promocionales y descuentos que pueden resultar en el cobro de diferentes importes por estos o similares servicios o bienes obtenidos a través del uso de los Servicios, y usted acepta que dichas ofertas promocionales y descuentos, a menos que también se pongan a su disposición, no se tendrán en cuenta en el uso por su parte de los Servicios o los Cargos aplicados a usted. Usted podrá optar por cancelar su solicitud para los servicios o bienes de un Tercero proveedor en cualquier momento antes de la llegada de ese Tercero proveedor, en cuyo caso se le podrá cobrar una tasa de cancelación.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
@@ -182,10 +170,6 @@ export default function PoliticaPrivacidad({proporcional}) {
                     fontFamily: 'DM Serif Display, serif'}}>
                 En el caso, que un Tercero proveedor reporte a Taxi 24/7 hrs la necesidad de reparación o limpieza y estos sean debidamente acreditados por el Tercero proveedor, usted acepta expresamente y otorga su consentimiento para que Taxi 24/7 hrs realice el cargo a su cuenta como agente facilitador de pago del Tercero proveedor por el costo razonable de dicha reparación o limpieza en nombre del Tercero proveedor utilizando el método de pago indicado en su Cuenta, lo anterior, de conformidad con los valores que se establecen más adelante. Dichos importes, así como aquellos cargos por la devolución de objetos olvidados, se transferirán por Taxi 24/7 hrs al correspondiente Tercero proveedor y no son reembolsables.
             </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                Los valores correspondientes a los cargos que se realicen a usted, por limpieza o devolución de objetos olvidados, los podrá encontrar en https://www.uber.com/es-MX/blog/tarifa-limpieza-objetos-perdidos/ y podrán ser actualizados en todo momento por Taxi 24/7 hrs.
-            </p>
             
             
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 24 / proporcional, marginBottom: 0 / proporcional, lineHeight: `${30 / proporcional}px`, color: '#374294', 
@@ -195,10 +179,6 @@ export default function PoliticaPrivacidad({proporcional}) {
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
                 SOPORTE.
-            </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                Taxi 24/7 hrs brinda soporte los 365 días del año, en caso de que lo necesite. Para recibir soporte, puede ingresar a la sección de “Ayuda”, ubicada en el menú principal de la aplicación o a través de la página web https://help.uber.com/. Es importante mencionar que Taxi 24/7 hrs cuenta con Guías Comunitarias, a las que todos los que utilizan la aplicación se deben apegar.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -226,7 +206,7 @@ export default function PoliticaPrivacidad({proporcional}) {
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
-                Usted podrá utilizar los servicios de uber para solicitar y planificar servicios de transporte, bienes o logísticos con terceros proveedores, pero acepta que Taxi 24/7 hrs no tiene responsabilidad alguna hacia usted en relación con cualquier servicio de transporte, bienes o logístico prestado a usted por terceros proveedores que no sea como se ha establecido expresamente en estas condiciones.
+                Usted podrá utilizar los servicios de TAXI 24/7 para solicitar y planificar servicios de transporte, bienes o logísticos con terceros proveedores, pero acepta que Taxi 24/7 hrs no tiene responsabilidad alguna hacia usted en relación con cualquier servicio de transporte, bienes o logístico prestado a usted por terceros proveedores que no sea como se ha establecido expresamente en estas condiciones.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -245,10 +225,6 @@ export default function PoliticaPrivacidad({proporcional}) {
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
                 Resolución directa de Conflictos
-            </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                En caso de que usted tenga algún problema con el uso de los Servicios y/o considere que alguna parte de las presentes Condiciones no está siendo observada o cumplida por Taxi 24/7 hrs y/o el Tercero proveedor, o de presentarse cualquier diferencia entre las Partes derivada o relacionada con las presentes Condiciones, usted acepta que el proceso a seguir consiste en comunicar dicha situación a través de la sección ubicada en el menú principal de la aplicación denominada “Tus Viajes” y “Ayuda” o directamente en la sección de “Ayuda” en el menú principal o en su defecto a través de la página web https://help.uber.com/, con el propósito de analizar y resolver el caso concreto.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
                     fontFamily: 'DM Serif Display, serif'}}>
@@ -271,10 +247,6 @@ export default function PoliticaPrivacidad({proporcional}) {
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>
                 Reclamaciones por infracción de derechos de autor.
-            </p>
-            <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 400, 
-                    fontFamily: 'DM Serif Display, serif'}}>
-                Las reclamaciones por infracción de derechos de autor deberán enviarse al agente designado de Taxi 24/7 hrs. Visite la página web de Taxi 24/7 hrs en https://www.uber.com/legal para obtener las direcciones designadas e información adicional.
             </p>
             <p style={{width: 1820 / proporcional, textAlign: 'justify', fontSize: 20 / proporcional, lineHeight: `${22 / proporcional}px`, color: '#212121', fontWeight: 600, 
                     fontFamily: 'DM Serif Display, serif'}}>

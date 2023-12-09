@@ -15,9 +15,57 @@ import PanelConductor from './components/conductor/panel.jsx'
 import PanelConductorTablet from './components/conductor/paneltablet.jsx'
 import PanelConductorCell from './components/conductor/panelcell.jsx'
 
+import DashboardConductor from './components/conductor/dashboard.jsx'
+import DashboardConductorTablet from './components/conductor/dashboardtablet.jsx'
+import DashboardConductorCell from './components/conductor/dashboardcell.jsx'
+
+import PerfilConductor from './components/conductor/perfil.jsx'
+import PerfilConductorTablet from './components/conductor/perfiltablet.jsx'
+import PerfilConductorCell from './components/conductor/perfilcell.jsx'
+
+import VehiculoConductor from './components/conductor/vehiculo.jsx'
+import VehiculoConductorTablet from './components/conductor/vehiculotablet.jsx'
+import VehiculoConductorCell from './components/conductor/vehiculocell.jsx'
+
+import DocumentosConductor from './components/conductor/documentos.jsx'
+import DocumentosConductorTablet from './components/conductor/documentostablet.jsx'
+import DocumentosConductorCell from './components/conductor/documentoscell.jsx'
+
+import ViajesConductor from './components/conductor/viajes.jsx'
+import ViajesConductorTablet from './components/conductor/viajestablet.jsx'
+import ViajesConductorCell from './components/conductor/viajescell.jsx'
+
+import IngresosConductor from './components/conductor/ingresos.jsx'
+import IngresosConductorTablet from './components/conductor/ingresostablet.jsx'
+import IngresosConductorCell from './components/conductor/ingresoscell.jsx'
+
+import CalificacionesConductor from './components/conductor/calificaciones.jsx'
+import CalificacionesConductorTablet from './components/conductor/calificacionestablet.jsx'
+import CalificacionesConductorCell from './components/conductor/calificacionescell.jsx'
+
 import PanelPasajero from './components/pasajero/panel.jsx'
 import PanelPasajeroTablet from './components/pasajero/paneltablet.jsx'
 import PanelPasajeroCell from './components/pasajero/panelcell.jsx'
+
+import DashboardPasajero from './components/pasajero/dashboard.jsx'
+import DashboardPasajeroTablet from './components/pasajero/dashboardtablet.jsx'
+import DashboardPasajeroCell from './components/pasajero/dashboardcell.jsx'
+
+import PerfilPasajero from './components/pasajero/perfil.jsx'
+import PerfilPasajeroTablet from './components/pasajero/perfiltablet.jsx'
+import PerfilPasajeroCell from './components/pasajero/perfilcell.jsx'
+
+import ViajesPasajero from './components/pasajero/viajes.jsx'
+import ViajesPasajeroTablet from './components/pasajero/viajestablet.jsx'
+import ViajesPasajeroCell from './components/pasajero/viajescell.jsx'
+
+import GastosPasajero from './components/pasajero/gastos.jsx'
+import GastosPasajeroTablet from './components/pasajero/gastostablet.jsx'
+import GastosPasajeroCell from './components/pasajero/gastoscell.jsx'
+
+import CuponesPasajero from './components/pasajero/cupones.jsx'
+import CuponesPasajeroTablet from './components/pasajero/cuponestablet.jsx'
+import CuponesPasajeroCell from './components/pasajero/cuponescell.jsx'
 
 import RegistroPanel from './components/registro/panel.jsx'
 import RegistroPanelTablet from './components/registro/paneltablet.jsx'
@@ -69,9 +117,57 @@ function App() {
                                                 width < 991 ? <PanelPasajeroTablet proporcional={991 / width}/> : 
                                                               <PanelPasajero       proporcional={1920 / width} />}/>
 
+                <Route path='pasajero/:pasajero' element={width < 500 ? <DashboardPasajeroCell   proporcional={499 / width}/> : 
+                                                          width < 991 ? <DashboardPasajeroTablet proporcional={991 / width}/> : 
+                                                                        <DashboardPasajero       proporcional={1920 / width} />}/>
+                                                                        
+                <Route path='pasajero/perfil/:pasajero' element={width < 500 ? <PerfilPasajeroCell   proporcional={499 / width}/> : 
+                                                                 width < 991 ? <PerfilPasajeroTablet proporcional={991 / width}/> : 
+                                                                               <PerfilPasajero       proporcional={1920 / width} />}/>
+                                                                        
+                <Route path='pasajero/viajes/:pasajero' element={width < 500 ? <ViajesPasajeroCell   proporcional={499 / width}/> : 
+                                                                 width < 991 ? <ViajesPasajeroTablet proporcional={991 / width}/> : 
+                                                                               <ViajesPasajero       proporcional={1920 / width} />}/>
+                                                                               
+                <Route path='pasajero/gastos/:pasajero' element={width < 500 ? <GastosPasajeroCell   proporcional={499 / width}/> : 
+                                                                 width < 991 ? <GastosPasajeroTablet proporcional={991 / width}/> : 
+                                                                               <GastosPasajero       proporcional={1920 / width} />}/>
+                                                                               
+                <Route path='pasajero/cupones/:pasajero' element={width < 500 ? <CuponesPasajeroCell   proporcional={499 / width}/> : 
+                                                                  width < 991 ? <CuponesPasajeroTablet proporcional={991 / width}/> : 
+                                                                                <CuponesPasajero       proporcional={1920 / width} />}/>
+
                 <Route path='conductor' element={width < 500 ? <PanelConductorCell   proporcional={499 / width}/> : 
                                                  width < 991 ? <PanelConductorTablet proporcional={991 / width}/> : 
                                                                <PanelConductor       proporcional={1920 / width} />}/>
+                                                               
+                <Route path='conductor/:conductor' element={width < 500 ? <DashboardConductorCell   proporcional={499 / width}/> : 
+                                                            width < 991 ? <DashboardConductorTablet proporcional={991 / width}/> : 
+                                                                          <DashboardConductor       proporcional={1920 / width} />}/>
+                                                                        
+                <Route path='conductor/perfil/:conductor' element={width < 500 ? <PerfilConductorCell   proporcional={499 / width}/> : 
+                                                                   width < 991 ? <PerfilConductorTablet proporcional={991 / width}/> : 
+                                                                                 <PerfilConductor       proporcional={1920 / width} />}/>
+                                                                                 
+                <Route path='conductor/vehiculo/:conductor' element={width < 500 ? <VehiculoConductorCell   proporcional={499 / width}/> : 
+                                                                     width < 991 ? <VehiculoConductorTablet proporcional={991 / width}/> : 
+                                                                                   <VehiculoConductor       proporcional={1920 / width} />}/>
+                                                                        
+                <Route path='conductor/documentos/:conductor' element={width < 500 ? <DocumentosConductorCell   proporcional={499 / width}/> : 
+                                                                       width < 991 ? <DocumentosConductorTablet proporcional={991 / width}/> : 
+                                                                                     <DocumentosConductor       proporcional={1920 / width} />}/>
+                                                                        
+                <Route path='conductor/viajes/:conductor' element={width < 500 ? <ViajesConductorCell   proporcional={499 / width}/> : 
+                                                                   width < 991 ? <ViajesConductorTablet proporcional={991 / width}/> : 
+                                                                                 <ViajesConductor       proporcional={1920 / width} />}/>
+                                                                               
+                <Route path='conductor/ingresos/:conductor' element={width < 500 ? <IngresosConductorCell   proporcional={499 / width}/> : 
+                                                                     width < 991 ? <IngresosConductorTablet proporcional={991 / width}/> : 
+                                                                                   <IngresosConductor       proporcional={1920 / width} />}/>
+                                                                                   
+                <Route path='conductor/calificaciones/:conductor' element={width < 500 ? <CalificacionesConductorCell   proporcional={499 / width}/> : 
+                                                                           width < 991 ? <CalificacionesConductorTablet proporcional={991 / width}/> : 
+                                                                                         <CalificacionesConductor       proporcional={1920 / width} />}/>
 
                 <Route path='registro' element={width < 500 ? <RegistroPanelCell   proporcional={499 / width}/> : 
                                                 width < 991 ? <RegistroPanelTablet proporcional={991 / width}/> : 

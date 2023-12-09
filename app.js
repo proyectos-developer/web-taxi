@@ -80,8 +80,44 @@ app.get('/', (req, res) => {
 app.get('/pasajero', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/build/pasajero', 'index.html'));
 });
+app.get('/pasajero/:pasajero', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/pasajero', 'index.html'));
+});
+app.get('/pasajero/perfil/:pasajero', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/pasajero/perfil', 'index.html'));
+});
+app.get('/pasajero/viajes/:pasajero', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/pasajero/viajes', 'index.html'));
+});
+app.get('/pasajero/gastos/:pasajero', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/pasajero/gastos', 'index.html'));
+});
+app.get('/pasajero/cupones/:pasajero', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/pasajero/cupones', 'index.html'));
+});
 app.get('/conductor', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/build/conductor', 'index.html'));
+});
+app.get('/conductor/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor', 'index.html'));
+});
+app.get('/conductor/perfil/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/perfil', 'index.html'));
+});
+app.get('/conductor/vehiculo/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/vehiculo', 'index.html'));
+});
+app.get('/conductor/documentos/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/documentos', 'index.html'));
+});
+app.get('/conductor/viajes/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/viajes', 'index.html'));
+});
+app.get('/conductor/ingresos/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/ingresos', 'index.html'));
+});
+app.get('/conductor/calificaciones/:conductor', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/conductor/calificaciones', 'index.html'));
 });
 app.get('/sesion', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/build/sesion', 'index.html'));

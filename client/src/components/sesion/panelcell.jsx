@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom'
 
 import { beginConstants } from '../../uri/begin-constants'
 import {begindata} from '../../redux/slice/begindata'
+import { set_user_authenticated } from '../../redux/actions/dataactions'
 
 export default function SesionPanelCell({proporcional}) {
 
@@ -33,16 +34,22 @@ export default function SesionPanelCell({proporcional}) {
     useEffect (() => {
         if (login_viajero && login_viajero.success === true && login_viajero.user){
             window.localStorage.setItem('session_id', login_viajero.user.session_id)
+            window.localStorage.setItem('usuario', login_viajero.user.user.usuario)
+            window.localStorage.setItem ('tipo_usuario', 'viajero')
+            dispatch(set_user_authenticated(true))
             dispatch (begindata(beginConstants({}, true, 0).login_viajero))
-            navigate ('/')
+            navigate (`/pasajero/${login_viajero.user.user.usuario}`)
         }
     }, [login_viajero])
 
     useEffect (() => {
         if (login_conductor && login_conductor.success === true && login_conductor.user){
             window.localStorage.setItem('session_id', login_conductor.user.session_id)
+            window.localStorage.setItem('usuario', login_conductor.user.user.usuario)
+            window.localStorage.setItem ('tipo_usuario', 'conductor')
+            dispatch(set_user_authenticated(true))
             dispatch (begindata(beginConstants({}, true, 0).login_conductor))
-            navigate ('/')
+            navigate (`/conductor/${login_conductor.user.user.usuario}`)
         }
     }, [login_conductor])
     
