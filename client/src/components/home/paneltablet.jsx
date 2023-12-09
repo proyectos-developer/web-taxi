@@ -20,10 +20,14 @@ export default function PanelHomeTablet({proporcional}) {
   }, [])
   
   return (
-    <div style={{width: '100%'}}>
+    <div className='position-relative' style={{width: '100%'}}>
         <BarraMenuTablet proporcional={proporcional}/>
         <Outlet/>
         <FooterPrincipalTablet proporcional={proporcional}/>
+          <a href='https://wa.me/51965419356' target='_blank' rel='noopener noreferrer'>
+              <img alt='whatsapp' className='position-fixed' src="https://img.icons8.com/fluent/72/000000/whatsapp.png" 
+                  style={{bottom: 36 / proporcional, right: 36 / proporcional, zIndex: 9999}}/>
+          </a>
     </div>
   )
 }
