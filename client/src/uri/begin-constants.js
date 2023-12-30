@@ -52,6 +52,12 @@ export const beginConstants = (data = {}, reset = false, id = 0) => {
             path: `session/delete/${id}`,
             stateType: 'delete_session',
             reset: reset
+        },
+        delete_cuenta: {
+            path: `cuenta/eliminacion`,
+            stateType: 'delete_cuenta',
+            reset: reset,
+            data: data
         }
     }
 }

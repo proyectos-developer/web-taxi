@@ -87,6 +87,18 @@ import PoliticaPrivacidad from './components/politica/main.jsx'
 import PoliticaPrivacidadTablet from './components/politica/maintablet.jsx'
 import PoliticaPrivacidadCell from './components/politica/maincell.jsx'
 
+import EliminacionCuenta from './components/eliminacion/main.jsx'
+import EliminacionCuentaTablet from './components/eliminacion/maintablet.jsx'
+import EliminacionCuentaCell from './components/eliminacion/maincell.jsx'
+
+import DashboardEliminacion from './components/eliminacion/eliminacion.jsx'
+import DashboardEliminacionTablet from './components/eliminacion/eliminaciontablet.jsx'
+import DashboardEliminacionCell from './components/eliminacion/eliminacioncell.jsx'
+
+import ConfirmacionEliminacion from './components/eliminacion/confirmacion.jsx'
+import ConfirmacionEliminacionTablet from './components/eliminacion/confirmaciontablet.jsx'
+import ConfirmacionEliminacionCell from './components/eliminacion/confirmacioncell.jsx'
+
 function App() {
   const [width, setWidth] = useState (window.outerWidth)
 
@@ -188,6 +200,20 @@ function App() {
                 <Route path='politica-privacidad' element={width < 500 ? <PoliticaPrivacidadCell   proporcional={499 / width}/> : 
                                                            width < 991 ? <PoliticaPrivacidadTablet proporcional={991 / width}/> : 
                                                                          <PoliticaPrivacidad       proporcional={1920 / width} />}/>
+
+            </Route>
+                                                               
+            <Route path='app/eliminacion-cuenta' element={width < 500 ? <EliminacionCuentaCell   proporcional={499 / width}/> : 
+                                                          width < 991 ? <EliminacionCuentaTablet proporcional={991 / width}/> : 
+                                                                        <EliminacionCuenta       proporcional={1920 / width} />}>
+                                                               
+                <Route index element={width < 500 ? <DashboardEliminacionCell   proporcional={499 / width}/> : 
+                                      width < 991 ? <DashboardEliminacionTablet proporcional={991 / width}/> : 
+                                                    <DashboardEliminacion       proporcional={1920 / width} />}/>
+                                                               
+                <Route path='confirmacion' element={width < 500 ? <ConfirmacionEliminacionCell   proporcional={499 / width}/> : 
+                                                    width < 991 ? <ConfirmacionEliminacionTablet proporcional={991 / width}/> : 
+                                                                  <ConfirmacionEliminacion       proporcional={1920 / width} />}/>
 
             </Route>
         </Routes>

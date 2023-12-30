@@ -27,6 +27,7 @@ export const begindata = createAsyncThunk ('', async (params) => {
         case 'delete_session':
         case 'log_out':
         case 'get_session_id':
+        case 'delete_cuenta':
             if (params.reset){ 
                 return {success: null}
             }else{
