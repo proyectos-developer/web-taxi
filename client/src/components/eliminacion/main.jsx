@@ -8,9 +8,7 @@ export default function EliminacionCuenta({proporcional}) {
 
     return (
         <div className='position-relative' style={{width: '100%'}}>
-            <BarraMenu proporcional={proporcional}/>
             <Outlet/>
-            <FooterPrincipal proporcional={proporcional}/>
         </div>
     )
 

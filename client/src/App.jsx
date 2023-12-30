@@ -201,20 +201,20 @@ function App() {
                                                            width < 991 ? <PoliticaPrivacidadTablet proporcional={991 / width}/> : 
                                                                          <PoliticaPrivacidad       proporcional={1920 / width} />}/>
 
-            </Route>
                                                                
-            <Route path='app/eliminacion-cuenta' element={width < 500 ? <EliminacionCuentaCell   proporcional={499 / width}/> : 
-                                                          width < 991 ? <EliminacionCuentaTablet proporcional={991 / width}/> : 
-                                                                        <EliminacionCuenta       proporcional={1920 / width} />}>
-                                                               
-                <Route index element={width < 500 ? <DashboardEliminacionCell   proporcional={499 / width}/> : 
-                                      width < 991 ? <DashboardEliminacionTablet proporcional={991 / width}/> : 
-                                                    <DashboardEliminacion       proporcional={1920 / width} />}/>
-                                                               
-                <Route path='confirmacion' element={width < 500 ? <ConfirmacionEliminacionCell   proporcional={499 / width}/> : 
-                                                    width < 991 ? <ConfirmacionEliminacionTablet proporcional={991 / width}/> : 
-                                                                  <ConfirmacionEliminacion       proporcional={1920 / width} />}/>
+                  <Route path='app/eliminacion-cuenta' element={width < 500 ? <EliminacionCuentaCell   proporcional={499 / width}/> : 
+                                                                width < 991 ? <EliminacionCuentaTablet proporcional={991 / width}/> : 
+                                                                              <EliminacionCuenta       proporcional={1920 / width} />}>
+                                                                    
+                      <Route index element={width < 500 ? <DashboardEliminacionCell   proporcional={499 / width}/> : 
+                                            width < 991 ? <DashboardEliminacionTablet proporcional={991 / width}/> : 
+                                                          <DashboardEliminacion       proporcional={1920 / width} />}/>
+                                                                    
+                      <Route path='confirmacion' element={width < 500 ? <ConfirmacionEliminacionCell   proporcional={499 / width}/> : 
+                                                          width < 991 ? <ConfirmacionEliminacionTablet proporcional={991 / width}/> : 
+                                                                        <ConfirmacionEliminacion       proporcional={1920 / width} />}/>
 
+                  </Route>
             </Route>
         </Routes>
     </BrowserRouter>
